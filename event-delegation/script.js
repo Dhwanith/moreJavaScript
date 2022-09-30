@@ -1,13 +1,13 @@
 
 // Obvious Method
 
-// const children = Array.from(document.getElementsByClassName("child"));
+const children = Array.from(document.getElementsByClassName("child"));
 
-// children.forEach((child) => {
-//     child.addEventListener("click", () => {
-//         console.log(child.innerHTML);
-//     })
-// })
+children.forEach((child) => {
+    child.addEventListener("click", () => {
+        console.log(child.innerHTML);
+    })
+})
 
 
 // Event Delegation
