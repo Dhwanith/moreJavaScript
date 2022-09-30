@@ -1,0 +1,12 @@
+body {
+    text-align: left;
+    font-family: monospace;
+    font-size: x-large;
+    align-items:flex-start;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
